@@ -36,3 +36,6 @@ $ cat out.txt
 ```
 
 just edit the filename in the source code
+
+## Testing
+on my machine this file takes around 20s https://ptpb.pw/8ob6
