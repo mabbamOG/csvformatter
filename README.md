@@ -38,6 +38,6 @@ $ cat out.txt
 just edit the filename in the source code
 
 ## Testing
-on my machine this file takes around 20s https://ptpb.pw/8ob6
+on my machine this file (60MB and 1000000 rows with 8 columns long at most `(25, 11, 11, 2, 16, 9, 2, 5)`) takes around 21s https://ptpb.pw/8ob6
 
 running `column  -t --output-separator ' | ' -s ','  <out.csv >out.txt` takes around 8s
