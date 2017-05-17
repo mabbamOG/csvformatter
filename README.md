@@ -20,7 +20,7 @@ ednok@sufho.co.uk,Harvey,Pearson,40,Nemo Court,Julazjez,NE,35834
 ```
 
 ```bash
-$ ./main.py
+$ ./main.py out.csv out.txt
 rows =  (22, 8, 10, 2, 16, 8, 2, 5)
 $ cat out.txt
 |      kag@egi.gov       |   Todd   |   Obrien   | 60 |   Torev Place    | Ustawsif | CO | 24750 |
@@ -35,11 +35,10 @@ $ cat out.txt
 |   ednok@sufho.co.uk    |  Harvey  |  Pearson   | 40 |    Nemo Court    | Julazjez | NE | 35834 |
 ```
 
-just edit the filename in the source code
+usage is: `./main.py <in file> [<out file>]`
+in case no <out file> is provided output is redirected to stdout.
 
 ## Testing
 on my machine [this file](https://github.com/mabbamOG/csvformatter/releases/download/1.0/test.7z) (60MB and 1000000 rows with 8 columns long at most `(25, 11, 11, 2, 16, 9, 2, 5)`) takes around 21s 
-
 running it with pypy3 takes about 12s
-
 running `column  -t --output-separator ' | ' -s ','  <out.csv >out.txt` takes around 8s
