@@ -39,7 +39,7 @@ usage is: `./main.py <in file> [<out file>]`
 in case no <out file> is provided output is redirected to stdout.
 
 ## Testing
-on my machine [this file](https://github.com/mabbamOG/csvformatter/releases/download/1.0/test.7z) (60MB and 1000000 rows with 8 columns long at most `(25, 11, 11, 2, 16, 9, 2, 5)`) takes around 21s 
+on my machine [this file found under the release tab](https://github.com/mabbamOG/csvformatter/releases/download/1.0/test.ppmd.7z) (60MB and 1000000 rows with 8 columns long at most `(25, 11, 11, 2, 16, 9, 2, 5)`) takes around 21s 
 
 running it with pypy3 takes about 12s
 
